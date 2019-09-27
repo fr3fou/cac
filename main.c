@@ -4,8 +4,6 @@ int main(void)
 {
     INPUT dwn, up;
 
-    Sleep(5000);
-
     dwn.type = INPUT_MOUSE;
     dwn.mi.dwFlags = (MOUSEEVENTF_LEFTDOWN);
     dwn.mi.mouseData = 0;
